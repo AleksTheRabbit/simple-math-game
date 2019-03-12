@@ -4,10 +4,13 @@
             <title>Math Game</title>
         </head>
         <body>
-            <button onclick="document.getElementById('demo').innerHTML = getRndNumber()">Click Me</button>
-
-            <p id="demo"></p>
-
+                <form id="myform">
+                        <div id="gameBox">
+                        <p>Enter a number between 1 and 100</p>
+                        <input type="text" name="userinput" id="userinput" maxlength="4" autocomplete="off"/>
+                        <input type ="submit" name="submit" id="submit" class="button"/>
+                        </div>
+                        </form>
             <script src="script.js"></script>
         </body>
     </html>
