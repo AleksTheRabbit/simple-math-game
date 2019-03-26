@@ -2,13 +2,17 @@
     <html>
         <head>
             <title>Math Game</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
         </head>
         <body>
-                <form id="myform">
+                <!--<form onsubmit="return addTo()"id="myform">-->
+                    <form id="myform">
                         <div id="gameBox">
-                        <p>Enter a number between 1 and 100</p>
+                        <p>Enter a 4 digits number without repetition</p>
                         <input type="text" name="userinput" id="userinput" maxlength="4" autocomplete="off"/>
-                        <input type ="submit" name="submit" id="submit" class="button"/>
+                        <input type ="submit" onclick="myFunction()" name="submit" id="submit" class="button"/>
+                        <button  type ="button" onclick="init()" name="submit" id="btn"  class="button">Button</button>
+                        <p id="matches"></p>
                         </div>
                         </form>
             <script src="script.js"></script>

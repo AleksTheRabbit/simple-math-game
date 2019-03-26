@@ -8,6 +8,6 @@ Personal Project to create a small maths puzzle.
 4. Check 4 individual numbers against array.
 5. Convert generated and input numbers into arrays.
 6. Display numbers from 0 to 9. This will show numbers already chosen.
-  * Add colour to chosen numbers to show if they are correct or not.
-  * Add circles, crosses and underline (for more detailed look).
-  
+   * Add colour to chosen numbers to show if they are correct or not.
+   * Add circles, crosses and underline (for more detailed look).
+
